@@ -8,10 +8,10 @@ import {
     CardHeader,
     CardTitle,
  } from '../ui/card'
- import { Input } from "@/components/ui/input"
- import { Label } from "@/components/ui/label"
+ import { Input } from "@/Components/ui/card"
+ import { Label } from "@/Components/ui/card"
  import { Button } from '../ui/button'
- import { Textarea } from "@/components/ui/textarea"
+ import { Textarea } from "@/Components/ui/card"
 
 function Contact() {
   return (
