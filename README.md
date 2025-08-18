@@ -1,12 +1,60 @@
-# React + Vite
+# Atul's Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and professional background as a web developer. The site is a clean, modern, and fully responsive one-page application built from scratch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+You can view the live website here:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**[Live Demo Link Here]**
+
+*Please note: You will need to replace this placeholder link with the URL of your hosted website.*
+
+---
+
+## ✨ Features
+
+* **About Me:** A professional overview of who I am, my career goals, and what drives me.
+* **Skills:** A section detailing my proficiency in various programming languages, frameworks, and tools.
+* **Projects:** A showcase of my key projects with descriptions and links to their live demos and source code.
+* **Contact:** A simple and effective way for visitors to get in touch with me.
+
+---
+
+## 💻 Technologies Used
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Styling** | Custom CSS |
+| **Deployment** | GitHub Pages (or other hosting service) |
+
+---
+
+## 🔧 How to Run Locally
+
+To get a local copy up and running, follow these simple steps.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Atul1-17/Atul-Portfolio.git](https://github.com/Atul1-17/Atul-Portfolio.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Atul-Portfolio
+    ```
+
+3.  **Open the file:**
+    Simply open the `portfolio.html` file in your preferred web browser.
+
+---
+
+## 📬 Connect with Me
+
+* **GitHub:** [https://github.com/Atul1-17](https://github.com/Atul1-17)
+* **LinkedIn:** (https://www.linkedin.com/in/atul-bopche-18408a2b1/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BtwQw0RBzQEKiP3Ume%2FYzrw%3D%3D)
+
+---
