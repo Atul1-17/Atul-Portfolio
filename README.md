@@ -27,9 +27,9 @@ You can view the live website here:
 
 | Category | Technologies |
 | :--- | :--- |
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Styling** | Custom CSS |
-| **Deployment** | GitHub Pages (or other hosting service) |
+| **Frontend** | react |
+| **Styling** |  tailwindcss |
+| **Deployment** | GitHub Pages |
 
 ---
 
