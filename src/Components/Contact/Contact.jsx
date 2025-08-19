@@ -10,7 +10,7 @@ import {
  import { Input } from "@/Components/ui/input"
  import { Label } from "@/Components/ui/label"
  import { Button } from '../ui/button'
- import { Textarea } from "@/Components/ui/card"
+ import { Textarea } from "@/Components/ui/textarea"
 
 function Contact() {
   return (
