@@ -1,6 +1,7 @@
-import { div } from 'framer-motion/client';
 import Logo from '../Logo/Logo'
-import { MoonStar, AlignJustify  } from 'lucide-react';
+import { AlignJustify  } from 'lucide-react';
+import { ModeToggle } from '../mode-toggle';
+
 
 function Header() {
     const navItem = [
@@ -35,6 +36,8 @@ function Header() {
         }
     }
 
+
+
   return (
     <div className='fixed w-full '>
         <div className='relative backdrop-blur-lg h-[10vh] flex items-center justify-around '>
@@ -44,7 +47,7 @@ function Header() {
             <ul className='hidden md:flex gap-15 '>
                 {navItem.map((item) => (
                 <li key={item.name}>
-                    <button className=' font-medium cursor-pointer hover:text-[rgb(87,169,154)] text-black/70'>
+                    <button className=' font-medium cursor-pointer hover:text-[rgb(87,169,154)] '>
                         {item.name}
                     </button>
                 </li>
@@ -60,7 +63,7 @@ function Header() {
             </div>
 
             <div className='rounded-full h-5 cursor-pointer'>
-                <MoonStar className='text-black/70'/>
+                <ModeToggle />
             </div>
 
             <div id='menuSlider' className='hidden h-[25vh] absolute backdrop-blur-lg mt-[32vh] sm:mt-[30vh] sm:h-[20vh] w-full bg-black/80 flex-col items-center justify-center'>

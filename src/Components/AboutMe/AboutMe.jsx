@@ -3,7 +3,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/Components/ui/card"
+} from "../ui/card"
 
 
 function AboutMe() {
@@ -14,7 +14,7 @@ function AboutMe() {
           <div className='h-1 w-30 md:w-[5vw] rounded-full bg-gradient-to-r from-[rgb(87,169,154)] to-[rgb(209,238,204)]'></div>
         </div>
 
-        <div className="border-2 md:h-[40vh] bg-white rounded-2xl mt-3 p-10 flex flex-col md:flex-row md:items-center justify-center md:justify-around gap-6">
+        <div className="border-2 md:h-[40vh]  rounded-2xl mt-3 p-10 flex flex-col md:flex-row md:items-center justify-center md:justify-around gap-6">
           <h1 className="text-3xl md:hidden font-medium">Hi Everyone,<br /> I am <span className="text-[rgb(87,169,154)]">Atul Bopche</span> from Nagpur, India.</h1>
 
           {/* for big screen */}  
@@ -33,7 +33,8 @@ function AboutMe() {
             <CardHeader>
               <CardTitle className='text-2xl'>Experience</CardTitle>
                 <div className='h-1 w-30 md:w-[5vw] rounded-full bg-gradient-to-r from-[rgb(87,169,154)] to-[rgb(209,238,204)]'></div>
-              <CardDescription className='text-center font-medium text-lg md:text-lg  text-[rgb(87,169,154)]'>
+              <CardDescription className='text-center font-medium text-lg md:text-lg'>
+                <h1 className="text-6xl font-bold ">Coming soon</h1>
                 
               </CardDescription>
             </CardHeader>
@@ -43,7 +44,8 @@ function AboutMe() {
             <CardHeader>
               <CardTitle className='text-2xl'>Skills</CardTitle>
                 <div className='h-1 w-30 md:w-[5vw] rounded-full bg-gradient-to-r from-[rgb(87,169,154)] to-[rgb(209,238,204)]'></div>
-              <CardDescription>
+              <CardDescription className="text-center font-medium text-lg md:text-lg">
+                <h1 className="text-6xl font-bold ">Coming soon</h1>
               </CardDescription>
             </CardHeader>
           </Card>

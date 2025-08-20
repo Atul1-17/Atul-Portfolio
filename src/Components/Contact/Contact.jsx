@@ -7,10 +7,10 @@ import {
     CardHeader,
     CardTitle,
  } from '../ui/card'
- import { Input } from "@/Components/ui/input"
- import { Label } from "@/Components/ui/label"
+ import { Input } from "../ui/input"
+ import { Label } from "../ui/label"
  import { Button } from '../ui/button'
- import { Textarea } from "@/Components/ui/textarea"
+ import { Textarea } from "../ui/textarea"
 
 function Contact() {
   return (
