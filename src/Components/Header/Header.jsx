@@ -58,12 +58,14 @@ function Header() {
 
         {/* mobile menu bar */}
 
-            <div className='md:hidden'>
+            <div className='gap-5 flex items-center justify-center'>
+                <div className='md:hidden'>
                 <AlignJustify onClick={() => {handleSlider()}}/>
             </div>
 
-            <div className='rounded-full h-5 cursor-pointer'>
+            <div className=' cursor-pointer'>
                 <ModeToggle />
+            </div>
             </div>
 
             <div id='menuSlider' className='hidden h-[25vh] absolute backdrop-blur-lg mt-[32vh] sm:mt-[30vh] sm:h-[20vh] w-full bg-black/80 flex-col items-center justify-center'>
